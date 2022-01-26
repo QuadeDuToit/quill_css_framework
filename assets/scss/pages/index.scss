@@ -1,0 +1,42 @@
+#nav {
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: $clr-primary;
+    & * {
+        color: white;
+    }
+    @media (max-width: $screen-size-xs) {
+        & {
+            margin: auto;
+            position: fixed;
+            height: 30px;
+            width: 30px;
+            top: 10px;
+            right: 10px;
+            left: auto;
+            bottom: auto;
+            z-index: 9;
+        }
+    }
+}
+
+#body {
+    width: 60%;
+    margin-left: 40%;
+    @media (max-width: $screen-size-xs) {
+        & {
+            width: 100%;
+            margin-left: 0%;
+            margin-right: 0%;
+            padding: 10px;
+        }
+    }
+}
+
+.pb-200 {
+    padding-bottom: 200px;
+}
