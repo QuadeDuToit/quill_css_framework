@@ -1,7 +1,9 @@
 // @import "variables";
 // @import "bootstrap_grid";
-@use "abstracts";
-// @use "base";
+@import "abstracts/variables";
+// @import "base";
+@import "base/reset";
+@import "base/typography";
 // strong {
 //     font-weight: 900;
 // }

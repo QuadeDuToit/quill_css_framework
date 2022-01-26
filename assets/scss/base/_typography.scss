@@ -1,3 +1,5 @@
+$url: "/assets/fonts";
+$robotoUrl: "/roboto";
 .font-size-xs,
 .font-size-sm,
 .font-size-md,
@@ -9,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: $font-clr;
+    // color: $font-clr-primary;
 }
 
 .font-size-xs {
@@ -110,8 +112,6 @@ h6 {
     text-decoration: underline;
 }
 
-$url: "/assets/fonts";
-$robotoUrl: "/roboto";
 // break here
 // @font-face {
 //     font-family: 'Roboto';

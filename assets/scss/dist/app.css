@@ -1,0 +1,121 @@
+*,
+::before,
+::after {
+  font-family: "Roboto";
+  font-style: normal;
+  text-decoration: inherit;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+input:hover,
+textarea:hover,
+select:hover,
+input:focus,
+textarea:focus,
+select:focus,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  filter: none;
+}
+
+.font-size-xs, .font-size-xs::before, .font-size-xs::after {
+  font-size: 10px;
+}
+
+.font-size-sm, .font-size-sm::before, .font-size-sm::after {
+  font-size: 12px;
+}
+
+.font-size-md, .font-size-md::before, .font-size-md::after {
+  font-size: 15px;
+}
+
+.font-size-lg, .font-size-lg::before, .font-size-lg::after {
+  font-size: 18px;
+}
+
+.font-size-xl, .font-size-xl::before, .font-size-xl::after {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 46px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 56px;
+}
+
+h2 {
+  font-size: 46px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/roboto/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/assets/fonts/roboto/Roboto-Black.ttf") format("truetype");
+}
