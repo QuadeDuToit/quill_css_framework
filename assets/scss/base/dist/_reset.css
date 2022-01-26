@@ -31,3 +31,23 @@ select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
   filter: none;
 }
+
+strong {
+  font-weight: 900;
+}
+
+u {
+  text-decoration: underline;
+}
+
+em {
+  font-style: italic;
+}
+
+code {
+  background: #505050;
+  color: white;
+  padding: 0 3px;
+  margin: 0 3px;
+  border-radius: 3px;
+}

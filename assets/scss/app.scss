@@ -1,28 +1,7 @@
-// @import "variables";
-// @import "bootstrap_grid";
+// @import "base/reset";
 @import "abstracts/variables";
-// @import "base";
-@import "base/reset";
-@import "base/typography";
-// strong {
-//     font-weight: 900;
-// }
-// u {
-//     text-decoration: underline;
-// }
-// em {
-//     font-style: italic;
-// }
-// code {
-//     background: rgb(80, 80, 80);
-//     color: white;
-//     padding: 0 3px;
-//     margin: 0 3px;
-//     border-radius: 3px;
-// }
-// // @import "tables";
-// @import "fonts";
-// @import "fonts_and_sizing";
+// @import "vendors/bootstrap_grid";
+// @import "base/typography";
 // @import "flex";
 // @import "icons";
 // @import "display";
@@ -33,3 +12,4 @@
 // @import "animations";
 // // // pages
 // @import "pages/index.scss";
+@import "components/colors";

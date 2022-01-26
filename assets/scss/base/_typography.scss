@@ -1,10 +1,10 @@
 $url: "/assets/fonts";
 $robotoUrl: "/roboto";
-.font-size-xs,
-.font-size-sm,
-.font-size-md,
-.font-size-lg,
-.font-size-xl,
+.font-size_xs,
+.font-size_sm,
+.font-size_md,
+.font-size_lg,
+.font-size_xl,
 h1,
 h2,
 h3,
@@ -14,44 +14,44 @@ h6 {
     // color: $font-clr-primary;
 }
 
-.font-size-xs {
+.font-size_xs {
     // imported by labels
     &,
     &::before,
     &::after {
-        font-size: $font-size-xs;
+        font-size: $font-size_xs;
     }
 }
 
-.font-size-sm {
+.font-size_sm {
     &,
     &::before,
     &::after {
-        font-size: $font-size-sm;
+        font-size: $font-size_sm;
     }
 }
 
-.font-size-md {
+.font-size_md {
     &,
     &::before,
     &::after {
-        font-size: $font-size-md;
+        font-size: $font-size_md;
     }
 }
 
-.font-size-lg {
+.font-size_lg {
     &,
     &::before,
     &::after {
-        font-size: $font-size-lg;
+        font-size: $font-size_lg;
     }
 }
 
-.font-size-xl {
+.font-size_xl {
     &,
     &::before,
     &::after {
-        font-size: $font-size-xl;
+        font-size: $font-size_xl;
     }
 }
 
