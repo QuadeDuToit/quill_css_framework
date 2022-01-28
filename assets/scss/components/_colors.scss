@@ -2,13 +2,13 @@
 $theme in $themes {
     .bg-#{$name} {
         background: map-get($theme, 'default');
-        &__dark {
+        &-dark {
             background: map-get($theme, 'dark');
             &--hover:hover {
                 background: map-get($theme, 'dark');
             }
         }
-        &__light {
+        &-light {
             background: map-get($theme, 'light');
             &--hover:hover {
                 background: map-get($theme, 'light');
@@ -24,7 +24,7 @@ $theme in $themes {
         &::after {
             color: map-get($theme, 'default');
         }
-        &__dark {
+        &-dark {
             &,
             &::before,
             &::after {
@@ -38,7 +38,7 @@ $theme in $themes {
                 }
             }
         }
-        &__light {
+        &-light {
             &,
             &::before,
             &::after {
